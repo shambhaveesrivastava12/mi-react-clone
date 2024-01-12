@@ -1,0 +1,7 @@
+.nav {
+  padding: 1vmax;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
