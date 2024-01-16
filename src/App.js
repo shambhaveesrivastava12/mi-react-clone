@@ -10,6 +10,7 @@ import Heading from "./components/Heading";
 import StarProduct from "./components/StarProduct";
 import HotAccessoriesMenu from "./components/HotAccessoriesMenu";
 import HotAccessories from "./components/HotAccessories";
+import ProductReviews from "./components/ProductReviews";
 
 function App() {
   return (
@@ -75,6 +76,8 @@ function App() {
           }
         ></Route>
       </Routes>
+      <Heading text="PRODUCT REVIEWS" />
+      <ProductReviews productReviews={data.productReviews} />
     </Router>
   );
 }

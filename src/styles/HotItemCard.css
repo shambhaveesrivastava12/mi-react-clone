@@ -4,9 +4,14 @@
   align-items: center;
   background-color: white;
   width: 31%;
+  margin: 0.7vmax;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 .HotItemCard img {
-  width: 70%;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
 }
 .HotItemCard:hover {
   transform: translateY(-0.4vmax);
