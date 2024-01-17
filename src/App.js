@@ -12,6 +12,7 @@ import HotAccessoriesMenu from "./components/HotAccessoriesMenu";
 import HotAccessories from "./components/HotAccessories";
 import ProductReviews from "./components/ProductReviews";
 import Videos from "./components/Videos";
+import Banner from "./components/Banner";
 
 function App() {
   return (
@@ -81,6 +82,8 @@ function App() {
       <ProductReviews productReviews={data.productReviews} />
       <Heading text="VIDEOS" />
       <Videos videos={data.videos} />
+      <Heading text="IN THE PRESS" />
+      <Banner banner={data.banner} />
     </Router>
   );
 }
